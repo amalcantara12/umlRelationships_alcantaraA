@@ -8,3 +8,7 @@ class ScoreOutput:
 
     def print_output(self, printer_device: Printer):
         printer_device.print_page(self.content)
+
+printer = Printer()
+score = ScoreOutput("50/50")
+score.print_output
