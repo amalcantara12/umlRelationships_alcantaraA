@@ -5,7 +5,6 @@ class Person:
 
     def getName (self):
         print("Name: ", self.__name)
-
     def getAge (self):
         print("Age: ", self.__age)
 
@@ -13,5 +12,5 @@ class Person:
         self.getName()
         self.getAge()
 
-person1 = Person("Arya", 14)
+person1 = Person("Nina", 20)
 person1.display_info()
